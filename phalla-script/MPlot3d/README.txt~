@@ -1,0 +1,23 @@
+
+
+I- REQUIREMENTS
+
+Instal python2.7 and matplotlib.
+
+II- DESCRIPTION
+	
+	- mplot3dimportcsv.py: will generate your csv in Mplot3d.
+
+III- INPUT
+
+	- time_post.csv: store your data.
+
+IV-OUTPUT
+
+
+
+V- HOW TO RUN IT
+
+1. Open terminal and go to your directory.
+2. Launch the script python mplot3dimportcsv.py
+

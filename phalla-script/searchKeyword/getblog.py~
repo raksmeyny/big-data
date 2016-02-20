@@ -90,6 +90,14 @@ def openLink(link):
 		with open(path, 'a') as stream:
 		    stream.write(l+'\n')
 
+# try:
+# 	product=sys.argv[1]
+# 	b=searching(product)
+# 	openLink(b)
+# 	browser.quit()
+# except:
+# 	print "Error script "
+# 	browser.quit()
 try:
 	product_name=sys.argv[1]
 	b=searching(product_name,10)
