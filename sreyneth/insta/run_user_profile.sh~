@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "Start with user profile post"
+cat search_link.csv | while read line
+ do
+        python search_detail.py $line
+  wait
+ done
+ echo "successful extract detial after 10 min" 
+# # echo "successful extract detial comment after 10 min" >> getcomments.csv
+# # rm link.csv
+# echo "Start search after with top post"
+# cat getsearchlinkafter.csv | while read line
+# do
+#         python searchafter.py $line
+#  wait
+# done
+# echo "successful extract detial after 10 min" 
+
+echo "Start search after detial with top post"
+cat searchafter_link.csv | while read line
+do
+        python search_detailafter.py $line
+ wait
+done
+echo "successful extract detial after 10 min" 
+
