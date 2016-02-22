@@ -1,5 +1,5 @@
 #!/bin/bash
- 		./search.sh "sephora"
+ 		./search.sh "safirstores"
 echo "Start search link Top post"
 cat link.csv | while read line
 do

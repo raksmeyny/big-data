@@ -14,10 +14,10 @@ do
 done
 echo "successful user_profile_detail" 
 
-# echo "Start with user comment"
-# cat username_com.csv | while read line
-# do
-#         python ucomment.py $line
-#  wait
-# done
-# echo "successful with user comment" 
+echo "Start with user comment"
+cat username_com.csv | while read line
+do
+        python ucomment.py $line
+ wait
+done
+echo "successful with user comment" 

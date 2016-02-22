@@ -80,7 +80,7 @@ def getUserComment(url):
 			}
 		
 		myStr=json.dumps(obj)
-		nameFile="comment.json"
+		nameFile="user_comment.json"
 		fs = open(nameFile, 'a')
 		fs.write(myStr+","+"\n")
 
