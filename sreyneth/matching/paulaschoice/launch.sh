@@ -11,7 +11,7 @@ echo "successful"
 echo "Start get review"
 cat link.csv | while read line
 do
-        python make_review.py $line
+        python get_review.py $line
 
  wait
 done

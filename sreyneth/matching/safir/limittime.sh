@@ -1,2 +1,2 @@
 #!/bin/bash
-timeout -s 9 60 /home/phalla/Data_Extraction/matching/safir/run.sh
+timeout -s 9 18000 /home/phalla/Data_Extraction/matching/safir/run.sh
